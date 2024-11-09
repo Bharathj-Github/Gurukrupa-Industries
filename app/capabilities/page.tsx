@@ -14,7 +14,7 @@ export default function CapabilitiesPage() {
         height={0}
         className="absolute sm:top-[-6rem] sm:left-[-7rem] max-sm:w-[20rem] left-[-10rem] top-[-5rem]"
       />
-      <p className="sm:pt-[1rem] pt-5 uppercase sm:text-3xl text-2xl font-bold relative z-10">Capabilities</p>
+      <p className="sm:pt-[1rem] pt-5 uppercase sm:text-3xl text-2xl font-bold relative z-10">In House Lab</p>
       <p className="h-[0.4rem] bg-primary-300 rounded-full mt-1 w-[5rem]"></p>
       <div className="pt-10 grid sm:grid-cols-3 items-center justify-center gap-5">
       <CapCard img="img1.jpeg" name="Digital Bursting Strength Tester"/>

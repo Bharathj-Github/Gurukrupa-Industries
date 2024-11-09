@@ -12,7 +12,14 @@ export default function CertificationsPage() {
         className="absolute sm:top-[-6rem] sm:left-[-7rem] max-sm:w-[20rem] left-[-10rem] top-[-5rem]"
       />
       <p className="sm:pt-[1rem] pt-5 uppercase sm:text-3xl text-2xl font-bold relative z-10">Certifications</p>
-      <p className="h-[0.4rem] bg-primary-300 rounded-full mt-1 w-[5rem]"></p>
+      <p className="h-[0.4rem] bg-primary-300 rounded-full mt-1 w-[5rem] mb-5"></p>
+      <Image
+        src={"/certificate.jpg"}
+        alt="blurry"
+        width={500}
+        height={0}
+        className="pb-10"
+      />
     </div>
   );
 }

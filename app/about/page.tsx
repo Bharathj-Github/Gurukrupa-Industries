@@ -46,7 +46,10 @@ export default function AboutPage() {
                   Multi-colour printed boxes
                 </Chip>
                 <Chip color="success" variant="dot">
-                  Unprinted boxes
+                  Inner Cortons
+                </Chip>
+                <Chip color="success" variant="dot">
+                  Plates and Partitions
                 </Chip>
               </div>
             </div>

@@ -24,37 +24,37 @@ function getTodayDayName() {
     case "Mon":
       return (
         <Chip color="success" variant="dot" className="text-tiny">
-          Mon - 09:00 am – 05:00 pm
+          Mon - 09:00 am – 05:30 pm
         </Chip>
       );
     case "Tue":
       return (
         <Chip color="success" variant="dot" className="text-tiny">
-          Tue - 09:00 am – 05:00 pm
+          Tue - 09:00 am – 05:30 pm
         </Chip>
       );
     case "Wed":
       return (
         <Chip color="success" variant="dot" className="text-tiny">
-          Wed - 09:00 am – 05:00 pm
+          Wed - 09:00 am – 05:30 pm
         </Chip>
       );
     case "Thu":
       return (
         <Chip color="success" variant="dot" className="text-tiny">
-          Thu - 09:00 am – 05:00 pm
+          Thu - 09:00 am – 05:30 pm
         </Chip>
       );
     case "Fri":
       return (
         <Chip color="success" variant="dot" className="text-tiny">
-          Fri - 09:00 am – 05:00 pm
+          Fri - 09:00 am – 05:30 pm
         </Chip>
       );
     case "Sat":
       return (
-        <Chip color="warning" variant="dot" className="text-tiny">
-          Sat - Closed
+        <Chip color="success" variant="dot" className="text-tiny">
+          Sat - 09:00 am – 05:30 pm
         </Chip>
       );
   } // Return today's day name
@@ -111,7 +111,7 @@ export default function ContactPage() {
               <span className="text-3xl">
                 <IoLocation />
               </span>
-              <span className="flex justify-center items-center text-center">109, Industrial A Layout, 2nd Stage, Shivarathreeshwara Nagar, Bannimantap, Mysuru, Karnataka 570015</span>
+              <span className="flex justify-center items-center text-center text-wrap">109, Industrial A Layout, 2nd Stage, Shivarathreeshwara Nagar, Bannimantap, Mysuru, Karnataka 570015</span>
             </p>
           </Chip>
           <p className="flex items-center max-sm:w-[80vw]">
@@ -131,22 +131,22 @@ export default function ContactPage() {
                 </div>
                 <div className="pt-2 flex flex-col gap-2">
                   <Chip color="success" variant="dot" className="text-tiny">
-                    Mon - 09:00 am – 05:00 pm
+                    Mon - 09:00 am – 05:30 pm
                   </Chip>
                   <Chip color="success" variant="dot" className="text-tiny">
-                    Tue - 09:00 am – 05:00 pm
+                    Tue - 09:00 am – 05:30 pm
                   </Chip>
                   <Chip color="success" variant="dot" className="text-tiny">
-                    Wed - 09:00 am – 05:00 pm
+                    Wed - 09:00 am – 05:30 pm
                   </Chip>
                   <Chip color="success" variant="dot" className="text-tiny">
-                    Thu - 09:00 am – 05:00 pm
+                    Thu - 09:00 am – 05:30 pm
                   </Chip>
                   <Chip color="success" variant="dot" className="text-tiny">
-                    Fri - 09:00 am – 05:00 pm
+                    Fri - 09:00 am – 05:30 pm
                   </Chip>
-                  <Chip color="warning" variant="dot" className="text-tiny">
-                    Sat - Closed
+                  <Chip color="success" variant="dot" className="text-tiny">
+                    Sat - Sat - 09:00 am – 05:30 pm
                   </Chip>
                   <Chip color="warning" variant="dot" className="text-tiny">
                     Sun - Closed
