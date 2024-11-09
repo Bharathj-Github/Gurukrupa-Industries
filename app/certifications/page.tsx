@@ -14,7 +14,7 @@ export default function CertificationsPage() {
       <p className="sm:pt-[1rem] pt-5 uppercase sm:text-3xl text-2xl font-bold relative z-10">Certifications</p>
       <p className="h-[0.4rem] bg-primary-300 rounded-full mt-1 w-[5rem] mb-5"></p>
       <Image
-        src={"certificate.jpg"}
+        src={"/certificate.jpg"}
         alt="certificate"
         width={500}
         height={0}

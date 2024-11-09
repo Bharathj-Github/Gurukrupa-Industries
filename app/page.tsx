@@ -54,7 +54,7 @@ export default function Home() {
             alt="Box2"
             width={400}
             height={0}
-            className="absolute top-[0rem] left-0 max-sm:w-[13.5rem] z-[2]"
+            className="absolute top-[0rem] left-0 max-sm:w-[13.5rem] z-20"
           />
           <Image
             src={"/blurry.svg"}
