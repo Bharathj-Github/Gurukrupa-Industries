@@ -47,7 +47,7 @@ export const siteConfig = {
       href: "/certifications",
     },
     {
-      label: "Capabilities",
+      label: "In House Lab",
       href: "/capabilities",
     },
     {
