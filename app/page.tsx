@@ -45,9 +45,9 @@ export default function Home() {
         <Image
               src={"Asset4.svg"}
               alt="Box3"
-              width={400}
+              width={100}
               height={0}
-              className="absolute sm:top-[53vh] right-2 sm:right-0 max-sm:w-[20rem] max-sm:bottom-[-0.1rem] w-[35vw] z-10"
+              className="absolute sm:top-[65vh] right-2 sm:right-0 max-sm:w-[20rem] max-sm:bottom-[-0.5rem] w-[20vw] z-10"
             />
           <Image
             src={"Asset2.svg"}
