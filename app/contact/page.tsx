@@ -146,7 +146,7 @@ export default function ContactPage() {
                     Fri - 09:00 am – 05:30 pm
                   </Chip>
                   <Chip color="success" variant="dot" className="text-tiny">
-                    Sat - Sat - 09:00 am – 05:30 pm
+                    Sat - 09:00 am – 05:30 pm
                   </Chip>
                   <Chip color="warning" variant="dot" className="text-tiny">
                     Sun - Closed
