@@ -106,14 +106,14 @@ export default function ContactPage() {
               Contact us via WhatsApp
             </Link>
           </Button>
-          <Chip color="primary" variant="flat" className="py-6 max-sm:py-8">
-            <p className="flex items-center max-sm:w-[80vw] text-wrap max-sm:gap-2 w-[40rem] justify-center">
-              <span className="text-3xl">
+          <div  className="w-full  px-5">
+            <div className="flex items-center bg-primary-100 rounded-full px-5 py-2">
+              <span className="text-3xl text-primary-800">
                 <IoLocation />
               </span>
-              <span className="flex justify-center items-center text-center text-wrap">109, Industrial A Layout, 2nd Stage, Shivarathreeshwara Nagar, Bannimantap, Mysuru, Karnataka 570015</span>
-            </p>
-          </Chip>
+              <span className="flex justify-center items-center text-center text-wrap text-sm">109, Industrial A Layout, 2nd Stage, Shivarathreeshwara Nagar, Bannimantap, Mysuru, Karnataka 570015</span>
+            </div>
+          </div>
           <p className="flex items-center max-sm:w-[80vw]">
             Visit us anytime during our regular business hours – we’d love to
             see you! <span className="text-red-600 text-2xl pl-2"><TiHeartFullOutline /></span>
@@ -159,7 +159,7 @@ export default function ContactPage() {
         <Image
           src={"/car.svg"}
           alt="Box2"
-          width={400}
+          width={300}
           height={0}
           className=""
         />

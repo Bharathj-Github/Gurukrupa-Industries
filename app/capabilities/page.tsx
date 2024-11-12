@@ -18,7 +18,7 @@ export default function CapabilitiesPage() {
       <p className="h-[0.4rem] bg-primary-300 rounded-full mt-1 w-[5rem]"></p>
       <div className="pt-10 grid sm:grid-cols-3 items-center justify-center gap-5">
       <CapCard img="img1.jpeg" name="Digital Bursting Strength Tester"/>
-      <CapCard img="img2.jpeg" name="Paper Smoothness Tester"/>
+      <CapCard img="img2.jpeg" name="Paper moisture Tester"/>
       <CapCard img="img3.jpeg" name='Box Compression Tester'/>
       <CapCard img="img4.jpeg" name="Electronic Scale and Analytical Balance"/>
       </div>

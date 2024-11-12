@@ -6,68 +6,58 @@ export default function App() {
   const list = [
     {
       title: "Orange",
-      img: "/box/box0.jpg",
+      img: "/box/box1.png",
       index: 1,
     },
     {
       title: "Orange",
-      img: "/box/box.jpg",
+      img: "/box/box2.jpg",
       index: 2,
     },
     {
       title: "Orange",
-      img: "Asset4.svg",
+      img: "/box/box3.jpg",
       index: 3,
     },
     {
       title: "Tangerine",
-      img: "/box/box1.svg",
+      img: "/box/box4.jpg",
       index: 4,
     },
     {
       title: "Raspberry",
-      img: "/box/box3.svg",
+      img: "/box/box5.jpg",
       index: 5,
     },
     {
       title: "Lemon",
-      img: "/box/box4.svg",
+      img: "/box/box6.jpg",
       index: 6,
     },
     {
       title: "Avocado",
-      img: "/box/box5.svg",
+      img: "/box/box7.jpg",
       index: 7,
     },
     {
       title: "Lemon 2",
-      img: "/box/box6.svg",
+      img: "/box/box8.jpg",
       index: 8,
     },
     {
       title: "Banana",
-      img: "/box/box7.svg",
+      img: "/box/box9.jpg",
       index: 9,
     },
     {
       title: "Watermelon",
-      img: "/box/box8.svg",
+      img: "/box/box10.jpeg",
       index: 10,
     },
     {
       title: "Watermelon",
-      img: "/box/box9.svg",
+      img: "/box/box11.jpg",
       index: 11,
-    },
-    {
-      title: "Watermelon",
-      img: "/box/box10.svg",
-      index: 12,
-    },
-    {
-      title: "Watermelon",
-      img: "/box/box11.svg",
-      index: 13,
     },
   ];
 
@@ -86,13 +76,7 @@ export default function App() {
               src={item.img}
             />
           </CardBody>
-            <p className="bg-gray-200 w-full text-primary-800">#{item.index} Customizable Box</p>
           <CardFooter className="text-small w-[13rem] text-wrap ">
-            <div className="flex flex-col gap-2">
-            <Chip color="primary" variant="dot" className="max-sm:text-[0.7rem] text-xs">Corrugated Box</Chip>
-            <Chip color="primary" variant="dot" className="max-sm:text-[0.7rem] text-xs">Carton Box</Chip>
-            <Chip color="primary" variant="dot" className="max-sm:text-[0.7rem] text-xs">Printed Corrugated Box</Chip>
-            </div>
           </CardFooter>
         </Card>
 
