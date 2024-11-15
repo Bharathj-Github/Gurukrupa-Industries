@@ -85,8 +85,8 @@ export default function Home() {
         <div className="relative">
 
         <Image
-          src={"home.png"}
-          alt="Box1"
+          src={"Homee.png"}
+          alt="layout"
           width={50000}
           height={0}
           className="relative sm:w-[50vw] w-[80vh]"
