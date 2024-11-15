@@ -1,6 +1,6 @@
+
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
-import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 
 import { Providers } from "./providers";
@@ -41,7 +41,9 @@ export default function RootLayout({
           fontSans.variable,
         )}
       >
+
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
+
           <div className="relative flex flex-col h-screen overflow-x-hidden overflow-y-auto [&::-webkit-scrollbar]:w-2
   [&::-webkit-scrollbar-track]:rounded-full
   [&::-webkit-scrollbar-track]:bg-gray-100

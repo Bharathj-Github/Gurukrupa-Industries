@@ -82,13 +82,24 @@ export default function Home() {
 
       {/* <div className="h-[5rem] "></div> */}
       <div className="bg-[#006FEE] flex justify-center pb-10">
+        <div className="relative">
+
         <Image
-          src={"/home.svg"}
+          src={"/home.png"}
+          alt="Box1"
+          width={50000}
+          height={0}
+          className="relative sm:w-[50vw] w-[80vh]"
+          />
+          {/* <Image
+          src={"/homebox1.png"}
           alt="Box1"
           width={500}
           height={0}
-          className="relative sm:w-[50vw] w-[80vh]"
-        />
+          className="absolute w-[10rem] bottom-2 left-[5rem]"
+        /> */}
+          </div>
+        
       </div>
     </div>
   );

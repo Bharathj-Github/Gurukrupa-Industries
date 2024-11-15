@@ -21,8 +21,12 @@ export const siteConfig = {
       href: "/certifications",
     },
     {
-      label: "In House Lab",
+      label: "Capabilities",
       href: "/capabilities",
+    },
+    {
+      label: "Customers",
+      href: "/customers",
     },
     {
       label: "Contact",
@@ -47,8 +51,12 @@ export const siteConfig = {
       href: "/certifications",
     },
     {
-      label: "In House Lab",
+      label: "Capabilities",
       href: "/capabilities",
+    },
+    {
+      label: "Customers",
+      href: "/customers",
     },
     {
       label: "Contact",

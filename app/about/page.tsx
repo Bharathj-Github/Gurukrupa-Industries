@@ -73,7 +73,7 @@ export default function AboutPage() {
             customers.
           </p>
           <p>
-            Our workforce consists of a dedicated team of 50 skilled workers who
+            Our workforce consists of a dedicated team of skilled workers who
             are committed to meeting our customer’s needs with efficiency and
             precision. With their expertise, we ensure that every product is
             made to the highest standards.
