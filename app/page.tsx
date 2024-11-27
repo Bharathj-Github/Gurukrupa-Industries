@@ -6,10 +6,10 @@ export default function Home() {
   return (
     <div>
       <div className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 font-medium text-[1.5rem] sm:text-[3rem] overflow-hidden relative">
-        <div className="inline-block max-w-[37rem] text-center justify-center sm:leading-[3rem] leading-[2rem] max-sm:font-bold max-sm:pt-[40%] pt-16 relative z-30 ">
+        <div className="inline-block max-w-[37rem] text-center justify-center sm:leading-[3.3rem] leading-[2rem] max-sm:font-bold max-sm:pt-[40%] pt-16 relative z-30 ">
           <span className="">We make&nbsp;</span>
           <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block text-transparent bg-clip-text">
-            Beautiful&nbsp;Boxes
+          Quality&nbsp;Boxes
           </span>
           <br />
           <span className="">Built to Protect, Designed to Impress.</span>

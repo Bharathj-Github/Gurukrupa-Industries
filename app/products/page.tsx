@@ -15,6 +15,8 @@ export default function ProductsPage() {
       <p className="sm:pt-[1rem] pt-5 uppercase sm:text-3xl text-2xl font-bold">products</p>
       <p className="h-[0.4rem] bg-primary-300 rounded-full mt-1 w-[5rem]"></p>
 
+      <p className="pt-3">At Gurukrupa Industries, we manufacture a wide range of packaging products</p>
+
       <div className="pt-7 grid ">
       <Card />
       </div>
