@@ -1,8 +1,10 @@
 import { title } from "@/components/primitives";
 import Image from "next/image";
+import Footer from "@/components/Footer";
 
 export default function CertificationPage() {
   return (
+    <div>
     <div className="flex flex-col items-center">
     <Image
       src={"/blurry.svg"}
@@ -21,5 +23,7 @@ export default function CertificationPage() {
       className="pb-10"
     />
   </div>
+  <Footer></Footer>
+</div>
   );
 }

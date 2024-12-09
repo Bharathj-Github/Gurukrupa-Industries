@@ -4,7 +4,7 @@ import React from "react";
 
 export default function page() {
   return (
-    <div className=" h-[87vh] flex items-center justify-center relative">
+    <div className=" h-[150%] flex items-center justify-center relative">
       <div className="bg-[url('/bg.jpg')] bg-no-repeat bg-cover blur-sm absolute h-screen w-screen"></div>
       <Image
         src={"/blurry.svg"}
@@ -35,6 +35,6 @@ export default function page() {
           </div>
         </div>
         </div>
-    </div>
+    </div> 
   );
 }

@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer";
+
 export default function ProductsLayout({
   children,
 }: {
@@ -6,6 +8,7 @@ export default function ProductsLayout({
   return (
     <section className="">
         {children}
+        <Footer></Footer>
     </section>
   );
 }

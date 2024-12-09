@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 export default function ContactLayout({
   children,
 }: {
@@ -6,6 +7,7 @@ export default function ContactLayout({
   return (
     <section className="">
         {children}
+        <Footer></Footer>
     </section>
   );
 }

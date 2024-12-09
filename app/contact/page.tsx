@@ -83,15 +83,43 @@ export default function ContactPage() {
     
 };
   return (
-    <div className="w-[100%] h-[100%] flex max-sm:flex-col">
-      <div className="w-[50vw] h-[90vh] max-sm:w-[100vw] max-sm:h-[30vh]">
-        <Image
+    <div className="w-[100%] flex flex-col max-sm:flex-col justify-center items-center pb-5">
+              <p className="sm:pt-[1rem] pt-5 uppercase sm:text-3xl text-xl font-bold">contact Us</p>
+              <p className="h-[0.4rem] bg-primary-300 rounded-full mt-1 w-[5rem]"></p>
+      <div className="flex justify-center gap-10 mt-10 max-sm:flex-col max-sm:gap-24 h-[65vh] max-sm:pt-16">
+
+      <div className="w-[40vw] max-sm:w-[100vw] max-sm:h-[50vh] h-[55vh]">
+      <Image
           src={"/blurry.svg"}
           alt="blurry"
           width={600}
           height={0}
           className="absolute sm:top-[-15rem] top-[-5rem] right-[-5rem] max-sm:w-[20rem] max-sm:hidden "
         />
+        <div className="h-full relative z-10 w-full">
+      <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.6426367341433!2d76.64463207483023!3d12.339823087920488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7086ca56255d%3A0xe8857f2ac8d06d57!2sGurukrupa%20Industries!5e0!3m2!1sen!2sin!4v1733749009229!5m2!1sen!2sin"
+          width="100%"
+          height="100%"
+          style={{ border: 1 }}
+          loading="eager"
+          referrerPolicy="no-referrer-when-downgrade"
+          title="Shop Location"
+        ></iframe>
+        </div>
+
+        <div  className="w-full px-5 pt-5 max-sm:mb-10">
+            <div className="flex items-center bg-primary-100 rounded-full px-5 py-2">
+              <span className="text-3xl text-primary-800">
+                <IoLocation />
+              </span>
+              <span className="flex justify-center items-center text-center text-wrap text-sm">34D, Industrial A Layout, Bannimantap, near Balaji Theatre, Mysuru, Karnataka 570015</span>
+            </div>
+          </div>
+      </div>
+
+      <div className="w-[40vw] max-sm:w-[100vw] max-sm:h-[50vh] h-[55vh]">
+      <div className="h-full relative z-10 w-full">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.5445146931806!2d76.64591039999999!3d12.3464148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf714b630da825%3A0x622910b51f52247!2sGurukrupa%20Industries%20unit%20-%202!5e0!3m2!1sen!2sin!4v1731082507521!5m2!1sen!2sin"
           width="100%"
@@ -101,12 +129,27 @@ export default function ContactPage() {
           referrerPolicy="no-referrer-when-downgrade"
           title="Shop Location"
         ></iframe>
+        </div>
+
+        <div  className="w-full  px-5 pt-5 max-sm:mb-10">
+            <div className="flex items-center bg-primary-100 rounded-full px-5 py-2">
+              <span className="text-3xl text-primary-800">
+                <IoLocation />
+              </span>
+              <span className="flex justify-center items-center text-center text-wrap text-sm">109, Industrial A Layout, 2nd Stage, Shivarathreeshwara Nagar, Bannimantap, Mysuru, Karnataka 570015</span>
+            </div>
+          </div>
+
       </div>
-      <div className="sm:w-[50vw] flex flex-col justify-center items-center relative z-10 w-full">
-        <p className="sm:pt-[1rem] pt-5 uppercase sm:text-3xl text-xl font-bold">contact Us</p>
-        <p className="h-[0.4rem] bg-gray-200 rounded-full mt-1 w-[5rem]"></p>
-        <div className="flex flex-col gap-5 justify-center items-center pt-[2rem] pb-5 max-sm:text-xs">
-          <div className="flex flex-col items-center max-sm:w-[90vw]">
+      
+      
+      </div>
+
+      <div className="sm:w-[50vw] flex flex-col justify-center items-center w-full">
+
+        <div className="flex flex-col gap-5 justify-center items-center pt-[2rem] pb-5 max-sm:text-xs max-sm:pt-[13rem] max-sm:text-sm">
+          
+          <div className="flex flex-col items-center max-sm:w-[90vw] text-center">
             <p>
               We value each of our customers and believe nothing compares to a
               face-to-face visit.
@@ -135,14 +178,7 @@ export default function ContactPage() {
         </Button>
         <div className="flex items-center justify-center gap-2 w-[15rem] bg-gray-100 p-2 sm:hidden"><SiGmail className="text-2xl"/><Code> gurukrupa.gk@gmail.com</Code> </div>
         </div>
-          <div  className="w-full  px-5">
-            <div className="flex items-center bg-primary-100 rounded-full px-5 py-2">
-              <span className="text-3xl text-primary-800">
-                <IoLocation />
-              </span>
-              <span className="flex justify-center items-center text-center text-wrap text-sm">109, Industrial A Layout, 2nd Stage, Shivarathreeshwara Nagar, Bannimantap, Mysuru, Karnataka 570015</span>
-            </div>
-          </div>
+          
           <p className="flex items-center max-sm:w-[80vw]">
             Visit us anytime during our regular business hours – we’d love to
             see you! <span className="text-red-600 text-2xl pl-2"><TiHeartFullOutline /></span>
@@ -185,6 +221,7 @@ export default function ContactPage() {
             </PopoverContent>
           </Popover>
         </div>
+        <div className="">
         <Image
           src={"/contact.svg"}
           alt="Box2"
@@ -192,6 +229,7 @@ export default function ContactPage() {
           height={0}
           className=""
         />
+        </div>
       </div>
     </div>
   );

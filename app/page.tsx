@@ -1,6 +1,7 @@
 "use client"
 import { animate, animations, motion } from "framer-motion";
 import Image from "next/image";
+import Footer from "../components/Footer"
 
 export default function Home() {
   return (
@@ -101,6 +102,7 @@ export default function Home() {
           </div>
         
       </div>
+      <Footer></Footer>
     </div>
   );
 }
