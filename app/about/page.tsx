@@ -23,7 +23,7 @@ export default function AboutPage() {
         <p className="h-[0.4rem] bg-primary-300 rounded-full mt-1 w-[5rem] sm:mb-2"></p>
         <div className="overflow-hidden">
           <Image
-            src={"/box/123.jpg"}
+            src={"/AboutUs.jpg"}
             alt="about"
             width={5000}
             height={0}
