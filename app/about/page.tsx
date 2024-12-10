@@ -78,8 +78,8 @@ export default function AboutPage() {
         <div className="sm:flex sm:gap-10 ">
         <div className="">
 <li>Automobile Industry</li>
-<li>Beverages</li>
-<li>Consumer Electronic Goods</li>
+<li>Beverages Industry</li>
+<li>ice cream Industry</li>
 <li>Ecommerce Industry</li>
 <li>FMCG</li>
 <li>Fruits and Vegetables</li>
