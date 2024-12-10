@@ -22,7 +22,7 @@ export default function AboutPage() {
         </p>
         <p className="h-[0.4rem] bg-primary-300 rounded-full mt-1 w-[5rem] sm:mb-2"></p>
         <div className="overflow-hidden">
-          <Image
+          <img
             src="/machine.png"
             alt="about"
             width={5000}
