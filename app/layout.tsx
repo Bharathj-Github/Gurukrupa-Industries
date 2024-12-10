@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   icons: {
-    icon: "/minilogo.svg",
+    icon: "/minilogo2.svg",
   },
 };
 
