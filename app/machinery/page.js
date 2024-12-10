@@ -28,6 +28,11 @@ export default function page() {
         <CapCard img="/machine7.jpeg" name="Heavy duty die punching machine" />
         <CapCard img="/machine6.jpeg" name="Manual box stitching machine" />
         <CapCard img="/machine8.jpeg" name="4 bar sheet pasting machine" />
+        <div className="py-4 sm:w-[30rem] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] bg-white rounded-lg flex flex-col items-center justify-center">
+      <div className="overflow-visible py-2 flex items-center justify-center">
+        <p className="text-tiny uppercase font-bold text-wrap">Many more . . .</p>
+      </div>
+    </div>
       </div>
     </div>
     <Footer></Footer>

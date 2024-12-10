@@ -46,34 +46,55 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center py-5 my-10 items-center bg-blue-100 text-wrap max-sm:text-sm px-5 gap-10 max-sm:flex-col">
-        <div className="flex items-center gap-5 max-sm:gap-3">
+      <div className="flex justify-center py-5 my-10 items-center  text-wrap max-sm:text-sm px-5 gap-10 max-sm:flex-col">
+        <div className="flex items-center gap-5 max-sm:gap-3 bg-blue-100 p-5">
           <div className="text-5xl">
             <TbTargetArrow />
           </div>
           <div className="sm:w-[30vw]">
             <p className="uppercase font-bold pb-2">Our mission </p>
             <p>
-              Create value for brands by providing innovative, functional,
-              accessible, and environmentally friendly packaging solutions
+              Create value for brands by providing innovative, functional and environmentally friendly packaging
             </p>
           </div>
         </div>
 
-        <div className="flex flex items-center gap-5 max-sm:gap-3">
+        <div className="flex flex items-center gap-5 max-sm:gap-3 bg-blue-100 py-5 px-5">
           <div className="text-5xl">
             <FaLightbulb />
           </div>
           <div className="sm:w-[30vw]">
             <p className="uppercase font-bold pb-2">Our vision</p>
-            <p>Be the global leader in the packaging industry.</p>
+            <p>Be the global leader in the packaging industry and try to satisfy the customer needs</p>
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center mb-5">
+      <div className="flex flex-col justify-center items-center mb-10">
         <p className="font-medium sm:text-3xl pb-2 text-xl">Our Values</p>
         <p className="sm:text-lg sm:w-[60vw] text-center w-[80vw]">At Gurukrupa Industries, we ignite a culture of innovation and continuous learning. we have grown responsible and ethical with our legacy</p>
       </div>
+      <div className="mb-5 flex justify-center flex-col items-center bg-blue-100 py-10">
+        <p className="font-bold sm:text-lg uppercase pb-5 max-sm:w-[80vw] text-center">These are the various industries we serve</p>
+        <div className="sm:flex sm:gap-10 ">
+        <div className="">
+<li>Automobile Industry</li>
+<li>Beverages</li>
+<li>Consumer Electronic Goods</li>
+<li>Ecommerce Industry</li>
+<li>FMCG</li>
+<li>Fruits and Vegetables</li>
+</div>
+<div>
+<li>Garments and Textiles Industry</li>
+<li>Infrastructure/Real Estate Industry</li>
+<li>Industrial Goods</li>
+<li>liharmaceutical Industry</li>
+<li>Transportation and Shipping Industry</li>
+<li>Furniture Industry</li>
+</div>
+</div>
+      </div>
+
       <Footer></Footer>
     </div>
   );
