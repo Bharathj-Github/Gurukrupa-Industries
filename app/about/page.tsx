@@ -88,7 +88,7 @@ export default function AboutPage() {
 <li>Garments and Textiles Industry</li>
 <li>Infrastructure/Real Estate Industry</li>
 <li>Industrial Goods</li>
-<li>liharmaceutical Industry</li>
+<li>pharmaceutical Industry</li>
 <li>Transportation and Shipping Industry</li>
 <li>Furniture Industry</li>
 </div>
