@@ -144,7 +144,7 @@ export default function ContactPage() {
                 <IoLocation />
               </span>
               <span className="flex justify-center items-center text-center text-wrap text-sm">
-                109, Industrial A Layout, 2nd Stage, Shivarathreeshwara Nagar,
+                No.109, Industrial A Layout, 2nd Stage, Shivarathreeshwara Nagar,
                 Bannimantap, Mysuru, Karnataka 570015
               </span>
             </div>

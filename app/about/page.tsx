@@ -34,7 +34,7 @@ export default function AboutPage() {
           <div className="">
             <div className="flex flex-col gap-3 text-wrap">
               <p className="font-medium sm:text-lg text-justify max-sm:px-5">
-                Since the year 1994, Gurukrupa Industries has been one of the
+                Since 1994, Gurukrupa Industries has been one of the
                 leading corrugated box manufacturing industry in Mysore. With 3
                 decades of experience, we are committed in offering exceptional
                 quality, service and innovative packaging solutions for a wide
@@ -54,7 +54,7 @@ export default function AboutPage() {
           <div className="sm:w-[30vw]">
             <p className="uppercase font-bold pb-2">Our mission </p>
             <p>
-              Create value for brands by providing innovative, functional and environmentally friendly packaging
+              Create value for brands by providing innovative and environmentally friendly packaging
             </p>
           </div>
         </div>
@@ -65,7 +65,7 @@ export default function AboutPage() {
           </div>
           <div className="sm:w-[30vw]">
             <p className="uppercase font-bold pb-2">Our vision</p>
-            <p>Be the global leader in the packaging industry and try to satisfy the customer needs</p>
+            <p>Be the global leader in the packaging industry and satisfy the customers needs.</p>
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@ export default function AboutPage() {
         <p className="sm:text-lg sm:w-[60vw] text-center w-[80vw]">At Gurukrupa Industries, we ignite a culture of innovation and continuous learning. we have grown responsible and ethical with our legacy</p>
       </div>
       <div className="mb-5 flex justify-center flex-col items-center bg-blue-100 py-10">
-        <p className="font-bold sm:text-lg uppercase pb-5 max-sm:w-[80vw] text-center">These are the various industries we serve</p>
+        <p className="font-bold sm:text-lg uppercase pb-5 max-sm:w-[80vw] text-center">Industries we serve</p>
         <div className="sm:flex sm:gap-10 ">
         <div className="">
 <li>Automobile Industry</li>

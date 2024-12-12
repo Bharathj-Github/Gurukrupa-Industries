@@ -8,13 +8,15 @@ export default function Home() {
     <div>
       <div className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 font-medium text-[1.5rem] sm:text-[3rem] overflow-hidden relative">
         <div className="inline-block max-w-[37rem] text-center justify-center sm:leading-[3.3rem] leading-[2rem] max-sm:font-bold max-sm:pt-[40%] pt-16 relative z-30 ">
+          <div className="">
           <span className="">We make&nbsp;</span>
           <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block text-transparent bg-clip-text">
           Quality&nbsp;Boxes
           </span>
           <br />
           <span className="">Built to Protect, Designed to Impress.</span>
-          <div className="sm:text-[1rem] text-[0.7rem]">
+          </div>
+          <div className="sm:text-[1rem] text-[3vw]">
             Boxing Up Quality, Crafted for Your Every Need.
           </div>
           <motion.div className="flex justify-center h-[40vh] max-sm:pb-[6rem] ">
@@ -23,7 +25,7 @@ export default function Home() {
               alt="Box1"
               width={400}
               height={0}
-              className="max-sm:w-[12rem] relative z-[2] w-[20vw] "
+              className="max-sm:w-[50vw] relative z-[2] w-[20vw] "
             />
           </motion.div>
         </div>
@@ -34,7 +36,7 @@ export default function Home() {
         repeat: Infinity,
         repeatType: 'reverse',
         ease: "easeInOut"
-      }} className="relative z-20">
+      }} className="relative z-20 max-sm:hidden">
             <Image
               src={"/Asset3.svg"}
               alt="Box3"
@@ -48,28 +50,28 @@ export default function Home() {
               alt="Box3"
               width={100}
               height={0}
-              className="absolute sm:top-[65vh] right-2 sm:right-0 max-sm:w-[20rem] max-sm:bottom-[-0.5rem] w-[20vw] z-10"
+              className="absolute sm:top-[65vh] right-2 sm:right-0 max-sm:w-[80vw] max-sm:bottom-[-0.5rem] w-[20vw] z-10"
             />
           <Image
             src={"Asset2.svg"}
             alt="Box2"
             width={400}
             height={0}
-            className="absolute top-[0rem] left-0 max-sm:w-[13.5rem] z-20"
+            className="absolute top-[0rem] left-0 max-sm:w-[50vw] z-20"
           />
           <Image
             src={"/blurry.svg"}
             alt="blurry"
             width={600}
             height={0}
-            className="absolute sm:top-[-15rem] top-[-5rem] right-[-5rem] max-sm:w-[20rem] z-10"
+            className="absolute sm:top-[-15rem] top-[-5rem] right-[-5rem] max-sm:w-[70vw] z-10"
           />
           <Image
             src={"blurry.svg"}
             alt="blurry"
             width={600}
             height={0}
-            className="absolute sm:hidden top-[15rem] left-[-11rem] max-sm:w-[20rem]"
+            className="absolute sm:hidden top-[15rem] left-[-11rem] max-sm:w-[80vw]"
           />
           <Image
             src={"roll.svg"}
