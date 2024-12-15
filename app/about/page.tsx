@@ -54,7 +54,7 @@ export default function AboutPage() {
           <div className="sm:w-[30vw]">
             <p className="uppercase font-bold pb-2">Our mission </p>
             <p>
-              Create value for brands by providing innovative and environmentally friendly packaging
+              Create value for brands by providing innovative and environmental friendly packaging
             </p>
           </div>
         </div>
